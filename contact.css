@@ -1,0 +1,25 @@
+
+.contact-content{
+    height: 100vh;
+   /* background-color: blue;*/
+   display: block;
+   margin-top: 32px;
+   padding: 9px;
+  
+   position: relative;
+   height: 80vh;
+  
+
+}
+.contact-content::after{
+    content: "";
+    background-image: url(../img/home6.jpg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.25;
+   border-radius: 12px;
+   z-index: -1;
+
+}
