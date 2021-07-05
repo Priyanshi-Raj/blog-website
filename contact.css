@@ -13,7 +13,7 @@
 }
 .contact-content::after{
     content: "";
-    background-image: url(../img/home6.jpg);
+    background-image: url(./home6.jpg);
     position: absolute;
     top: 0;
     width: 100%;
